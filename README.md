@@ -85,8 +85,8 @@ Options:
    -s	  Name of the style to apply
    
 Available styles:  aurora  beach  bitday  chihuahuan  cliffs  colony  desert  earth  exodus
-factory  firewatch  forest  gradient  home  island  lake  lakeside  market  mojave  moon
-mountains  neon-dystopia  room  sahara  street  tokyo  
+factory  firewatch  forest  gradient  home  island  kyoto  lake  lakeside  market  mojave  moon
+mountains  neon-dystopia  room  sahara  street  tokyo  uji
 
 Examples: 
 test.sh -s beach       Set wallpaper from 'beach' style
@@ -220,6 +220,10 @@ $ for file in *.heic; do heif-convert $file ${file/%.heic/.jpg}; done
 |Room|Sahara|Street|Tokyo|
 |--|--|--|--|
 |![gif](https://raw.githubusercontent.com/adi1090x/files/master/dynamic-wallpaper/room.gif)|![gif](https://raw.githubusercontent.com/adi1090x/files/master/dynamic-wallpaper/sahara.gif)|![gif](https://raw.githubusercontent.com/adi1090x/files/master/dynamic-wallpaper/street.gif)|![gif](https://raw.githubusercontent.com/adi1090x/files/master/dynamic-wallpaper/tokyo.gif)|
+
+|Kyoto|Uji|||
+|--|--|--|--|
+|![gif](images/kyoto/preview.gif)|![gif](images/uji/preview.gif)|||
 
 ### Common Issues
 
