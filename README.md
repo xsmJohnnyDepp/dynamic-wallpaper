@@ -86,7 +86,7 @@ Options:
    
 Available styles:  aurora  beach  bitday  chihuahuan  cliffs  colony  desert  earth  exodus
 factory  firewatch  forest  gradient  home  island  lake  lakeside  market  mojave  moon
-mountains  room  sahara  street  tokyo  
+mountains  neon-dystopia  room  sahara  street  tokyo
 
 Examples: 
 test.sh -s beach       Set wallpaper from 'beach' style
