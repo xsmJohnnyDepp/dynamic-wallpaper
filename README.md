@@ -84,7 +84,7 @@ Options:
    -p	  Use pywal to set wallpaper
    -s	  Name of the style to apply
    
-Available styles:  aurora  beach  bitday  chihuahuan  cliffs  colony  desert  earth  exodus
+Available styles:  alien-horror  aurora  beach  bitday  chihuahuan  cliffs  colony  desert  earth  exodus
 factory  firewatch  forest  gradient  home  island  kyoto  lake  lakeside  market  mojave  moon
 mountains  neon-dystopia  room  sahara  street  tokyo  uji
 
@@ -221,9 +221,9 @@ $ for file in *.heic; do heif-convert $file ${file/%.heic/.jpg}; done
 |--|--|--|--|
 |![gif](https://raw.githubusercontent.com/adi1090x/files/master/dynamic-wallpaper/room.gif)|![gif](https://raw.githubusercontent.com/adi1090x/files/master/dynamic-wallpaper/sahara.gif)|![gif](https://raw.githubusercontent.com/adi1090x/files/master/dynamic-wallpaper/street.gif)|![gif](https://raw.githubusercontent.com/adi1090x/files/master/dynamic-wallpaper/tokyo.gif)|
 
-|Kyoto|Uji|||
+|Alien Horror|Kyoto|Uji||
 |--|--|--|--|
-|![gif](images/kyoto/preview.gif)|![gif](images/uji/preview.gif)|||
+|![gif](images/alien-horror/preview.gif)|![gif](images/kyoto/preview.gif)|![gif](images/uji/preview.gif)||
 
 ### Common Issues
 
