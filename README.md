@@ -86,7 +86,7 @@ Options:
    
 Available styles:  alien-horror  aurora  beach  bitday  chihuahuan  cliffs  colony  desert  earth  exodus
 factory  firewatch  forest  gradient  home  island  kyoto  lake  lakeside  market  mojave  moon
-mountains  neon-dystopia  room  sahara  street  tokyo  uji
+mountains  neon-dystopia  room  sahara  street  tokyo  uji  winter-overlook
 
 Examples: 
 test.sh -s beach       Set wallpaper from 'beach' style
@@ -221,9 +221,20 @@ $ for file in *.heic; do heif-convert $file ${file/%.heic/.jpg}; done
 |--|--|--|--|
 |![gif](https://raw.githubusercontent.com/adi1090x/files/master/dynamic-wallpaper/room.gif)|![gif](https://raw.githubusercontent.com/adi1090x/files/master/dynamic-wallpaper/sahara.gif)|![gif](https://raw.githubusercontent.com/adi1090x/files/master/dynamic-wallpaper/street.gif)|![gif](https://raw.githubusercontent.com/adi1090x/files/master/dynamic-wallpaper/tokyo.gif)|
 
-|Alien Horror|Kyoto|Uji||
-|--|--|--|--|
-|![gif](images/alien-horror/preview.gif)|![gif](images/kyoto/preview.gif)|![gif](images/uji/preview.gif)||
+<table>
+  <tr>
+    <td><strong>Alien Horror</strong></td>
+    <td><strong>Kyoto</strong></td>
+    <td><strong>Uji</strong></td>
+    <td><strong>Winter Overlook</strong></td>
+  </tr>
+  <tr>
+    <td><img src="images/alien-horror/preview.gif" alt="Alien Horror preview" width="240"></td>
+    <td><img src="images/kyoto/preview.gif" alt="Kyoto preview" width="240"></td>
+    <td><img src="images/uji/preview.gif" alt="Uji preview" width="240"></td>
+    <td><img src="images/winter-overlook/12.jpg" alt="Winter Overlook preview" width="240"></td>
+  </tr>
+</table>
 
 ### Common Issues
 
