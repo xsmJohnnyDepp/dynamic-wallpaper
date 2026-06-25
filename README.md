@@ -142,6 +142,22 @@ $ crontab -l
 0 * * * * env PATH=/usr/local/bin:/usr/bin DISPLAY=:0 DESKTOP_SESSION=Openbox DBUS_SESSION_BUS_ADDRESS="unix:path=/run/user/1000/bus" /usr/bin/dwall -s firewatch
 ```
 
+- On Linux Mint 22.3 with Cinnamon on X11, defining the session variables at the top of the crontab can be more reliable. This example uses a checkout-local `dwall.sh`, writes logs to `/tmp/dwall-cron.log`, updates hourly, and reapplies the wallpaper after reboot:
+```bash
+SHELL=/bin/bash
+PATH=/usr/local/bin:/usr/bin:/bin
+HOME=/home/xsmbradpitt
+DISPLAY=:0
+DESKTOP_SESSION=cinnamon
+DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1001/bus
+XDG_RUNTIME_DIR=/run/user/1001
+XDG_SESSION_TYPE=x11
+
+0 * * * * /home/xsmbradpitt/source/repos/github/dynamic-wallpaper/dwall.sh -s neon-dystopia >> /tmp/dwall-cron.log 2>&1
+
+@reboot sleep 20 && /home/xsmbradpitt/source/repos/github/dynamic-wallpaper/dwall.sh -s neon-dystopia >> /tmp/dwall-cron.log 2>&1
+```
+
 - That's it, **dwall** added to your crontab and will change the wallpaper every hour. If you want to change the wallpaper style, just remove previous job and add new with another style.
 ```bash
 # delete previous job
@@ -225,12 +241,14 @@ $ for file in *.heic; do heif-convert $file ${file/%.heic/.jpg}; done
   <tr>
     <td><strong>Alien Horror</strong></td>
     <td><strong>Kyoto</strong></td>
+    <td><strong>Neon Dystopia</strong></td>
     <td><strong>Uji</strong></td>
     <td><strong>Winter Overlook</strong></td>
   </tr>
   <tr>
     <td><img src="images/alien-horror/preview.gif" alt="Alien Horror preview" width="240"></td>
     <td><img src="images/kyoto/preview.gif" alt="Kyoto preview" width="240"></td>
+    <td><img src="images/neon-dystopia/12.jpg" alt="Neon Dystopia preview" width="240"></td>
     <td><img src="images/uji/preview.gif" alt="Uji preview" width="240"></td>
     <td><img src="images/winter-overlook/12.jpg" alt="Winter Overlook preview" width="240"></td>
   </tr>
