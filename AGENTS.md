@@ -2,29 +2,34 @@
 
 ## Project Structure & Module Organization
 
-This repository is a Bash-based dynamic wallpaper tool. The main runtime script is `dwall.sh`, which selects a wallpaper by current hour from `/usr/share/dynamic-wallpaper/images`. `test.sh` mirrors the runtime behavior but reads assets from the local `images/` directory for pre-install checks. `install.sh` copies scripts and assets into `/usr/share/dynamic-wallpaper` and creates `/usr/bin/dwall`; `uninstall.sh` removes installed files. Wallpaper sets live under `images/<style>/` and should contain hour-based files named `0` through `23` with `.jpg` or `.png` extensions.
+This repository is a Bash-based dynamic wallpaper tool. The main runtime script is `dwall.sh`, which selects a wallpaper by current hour from `/usr/share/dynamic-wallpaper/images`; `install.sh` installs it as `/usr/bin/dwall`. Use `test.sh` for local, in-place testing before installation. `uninstall.sh` removes installed files. Wallpaper assets live under `images/<style>/`, where each style contains hour-based image files such as `0.jpg`, `6.jpg`, `12.png`, or `23.jpg`. Keep style names lowercase and descriptive, matching the directory name shown to users.
 
 ## Build, Test, and Development Commands
 
-- `bash -n dwall.sh install.sh test.sh uninstall.sh`: syntax-check shell scripts without changing the desktop.
-- `./test.sh -h`: list detected local styles and verify the help path.
-- `./test.sh -s firewatch`: apply a local wallpaper style for an end-to-end check; this changes the active desktop wallpaper.
-- `sudo ./install.sh`: install `dwall` system-wide after local validation.
+There is no compile step. Use these commands from the repository root:
 
-There is no compile step or package manager workflow in this project.
+```bash
+bash -n dwall.sh install.sh test.sh uninstall.sh
+./test.sh -h
+./test.sh -s beach
+sudo ./install.sh
+sudo ./uninstall.sh
+```
+
+`bash -n` checks shell syntax without executing the scripts. `./test.sh -h` verifies option parsing and style listing. `./test.sh -s beach` exercises the local image path and changes the active desktop wallpaper. The install and uninstall scripts modify `/usr/share/dynamic-wallpaper` and `/usr/bin/dwall`, so run them only when system-level changes are intended.
 
 ## Coding Style & Naming Conventions
 
-Keep scripts portable Bash with existing function naming and option parsing patterns. Use tabs or consistent indentation matching nearby code, quote paths and variables where practical, and avoid introducing external dependencies beyond the documented desktop tools. Style directory names should be lowercase kebab-case, for example `neon-dystopia`, and image names must remain numeric hour names such as `0.jpg`, `13.png`, and `23.jpg`.
+Use Bash with the existing script style: `#!/usr/bin/env bash`, uppercase global variables, lowercase function names where already established, and `[[ ... ]]` tests. Preserve executable bits on shell scripts. Prefer quoted variable expansions for paths and arguments. Match the existing indentation style in the touched file; avoid broad formatting-only changes. Style directory names should be lowercase kebab-case, for example `neon-dystopia`, and image names must remain numeric hour names such as `0.jpg`, `13.png`, and `23.jpg`.
 
 ## Testing Guidelines
 
-No formal test framework or coverage target exists. For script-only changes, run `bash -n` on all shell scripts and `./test.sh -h`. For wallpaper-set changes, verify that the new style has valid `0-23` assets and that each file is readable by standard image tools when available, for example `identify images/<style>/*.jpg`. Avoid `./test.sh -s <style>` unless a visible wallpaper change is acceptable.
+No automated test framework is present. For script changes, run `bash -n` on all shell files and at least one `./test.sh` command. For desktop-session logic, mention the tested environment in the PR, for example `XDG_SESSION_TYPE=x11`, `DESKTOP_SESSION=plasma`, or `wayland + oguri`. For new wallpaper styles, verify that expected hour files resolve to `.jpg` or `.png` and are readable by standard image tools when available, for example `identify images/<style>/*.jpg`. Avoid `./test.sh -s <style>` unless a visible wallpaper change is acceptable.
 
 ## Commit & Pull Request Guidelines
 
-Recent history uses short imperative or past-tense subjects such as `Add Uji wallpaper set`, `Add Kyoto wallpaper set`, and `Added plasmax11 support`. Keep commits focused: separate shell behavior changes from large asset additions. Pull requests should describe the affected style or desktop environment, list manual checks performed, and include previews or screenshots when adding or replacing wallpaper assets.
+Recent history uses short imperative or past-tense subjects such as `Add Uji wallpaper set`, `Add Kyoto wallpaper set`, and `Added plasmax11 support`. Keep commits focused and concise; separate shell behavior changes from large asset additions. Pull requests should describe the affected desktop environment or asset set, list manual test commands, link related issues, and include screenshots or previews when changing wallpapers or user-facing output.
 
 ## Security & Configuration Tips
 
-Be careful with installer edits because they run `sudo` and write under `/usr/share` and `/usr/bin`. Do not remove user wallpaper directories outside this project’s install path.
+Be careful with privileged commands in installer scripts because they run `sudo` and write under `/usr/share` and `/usr/bin`. Do not add network downloads or destructive file operations without clear user consent and documentation. Do not remove user wallpaper directories outside this project’s install path.
