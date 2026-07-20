@@ -84,8 +84,8 @@ Options:
    -p	  Use pywal to set wallpaper
    -s	  Name of the style to apply
 
-Available styles:  alien-horror  aurora  beach  bitday  chihuahuan  cliffs  colony  desert  earth  exodus
-factory  firewatch  forest  gradient  home  island  kyoto  lake  lakeside  market  mojave  moon
+Available styles:  alien-horror  aurora  beach  bitday  chihuahuan  cliffs  colony  desert  earth  event-horizon
+exodus  factory  firewatch  forest  gradient  home  island  kyoto  lake  lakeside  market  mojave  moon
 mountains  neon-dystopia  room  sahara  street  tokyo  uji  winter-overlook
 
 Examples:
@@ -244,6 +244,7 @@ $ for file in *.heic; do heif-convert $file ${file/%.heic/.jpg}; done
     <td><strong>Neon Dystopia</strong></td>
     <td><strong>Uji</strong></td>
     <td><strong>Winter Overlook</strong></td>
+    <td><strong>Event Horizon</strong></td>
   </tr>
   <tr>
     <td><img src="images/alien-horror/preview.gif" alt="Alien Horror preview" width="240"></td>
@@ -251,6 +252,7 @@ $ for file in *.heic; do heif-convert $file ${file/%.heic/.jpg}; done
     <td><img src="images/neon-dystopia/12.jpg" alt="Neon Dystopia preview" width="240"></td>
     <td><img src="images/uji/preview.gif" alt="Uji preview" width="240"></td>
     <td><img src="images/winter-overlook/12.jpg" alt="Winter Overlook preview" width="240"></td>
+    <td><img src="images/event-horizon/12.jpg" alt="Event Horizon preview" width="240"></td>
   </tr>
 </table>
 
