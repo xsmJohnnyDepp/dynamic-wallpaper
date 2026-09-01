@@ -1,0 +1,279 @@
+# neon-dystopia 調整研究：貼近 *Blade Runner 2049*
+
+## 目標
+
+現有 `images/neon-dystopia/` 是 8 張獨特畫面輪替 24 小時，整體偏通用賽博龐克雨夜城。本次研究是為後續調整蒐集更貼近電影 *Blade Runner 2049*（2017）的美術語彙，而不是直接重製劇照。
+
+與 `winter-overlook`、`event-horizon` 相同契約：
+
+- 原創空場景 homage：不使用電影劇照、演員肖像、可辨識角色、片名 logo、商標全息廣告
+- 翻譯的是色域、光、天氣、建築尺度與時段情緒
+- 即使只做 12–16 張獨特圖，仍須保留 `0.jpg` 到 `23.jpg`
+
+本文件是主題研究與產圖 brief。`9.jpg`–`14.jpg` 已各換成獨立實體圖（該段依當次指示含人物）。`15.jpg`–`20.jpg` 改為無人「城市作業系統」軟體界面，不要檔案室。
+
+## 現況對照
+
+檔案大小顯示目前只有 8 張實體圖，其餘小時是複本：
+
+| 小時 | 檔案 | 現況 | 與 2049 的距離 |
+|---|---|---|---|
+| `0–2` | `0.jpg` | 雨夜霓虹大道、暖街燈、倒影 | 較接近 1982 的雨夜巷，不是 2049 的銀白霾與稀疏 LED |
+| `3–5` | `3.jpg` | 工業屋頂、琥珀窗、霧 | 工業體量可用，但缺 2049 的分區色碼 |
+| `6–8` | `6.jpg` | 高空霾城、冷灰、無強霓虹 | 最接近 2049 的 LA 日景 |
+| `9–14` | 各一張獨立圖 | 已重產：霾城／廳堂／金階／水殿／粉雨／Vegas 雕像，含人物 | 該段為當次指定，不作為 15–20 的人物契約 |
+| `15–17` | `15.jpg` | 粗野主義檔案室、投影機（舊圖，三小時複本） | 尺度可用；主題已否決檔案室，改軟體 OS |
+| `18–20` | `18.jpg` | 日落橙＋青色霓虹巨城（舊圖，三小時複本） | 城市尺度可用；缺系統界面圖層 |
+| `21–23` | `21.jpg` | 雨巷、琥珀／青霓虹、東亞招牌 | 明顯 1982 巷弄；Gassner 說本片沒有霓虹、全是 LED |
+
+主要缺口：蛋白農場、華勒斯人造金光、海堤光池、銀白雪、聖地牙哥垃圾／工業內臟、K 的預製小宅。現有圖把一天混成「藍橙霓虹城」，沒有 2049 的分區色世界。
+
+## 2049 與 1982 的差異（調整時的試金石）
+
+Villeneuve 給 Gassner 的單字是 **Brutality**；Gassner 把它做成全片 pattern language，並把蒙特婁冬天的苛刻氣候帶進這個宇宙。[2][5]
+
+Deakins 明說不會用 Jordan Cronenweth 的方式打光，也沒有試圖模仿 1982 的獨特風格。[3][7]
+
+Villeneuve 要的是 **銀白版 Blade Runner**，對上第一部的黑；氣候與污染改變光質，城市像「霾中的北京」。[6][7]
+
+Gassner 說本片 **沒有霓虹，全是 LED**，為了當代、可控。[2]
+
+色是跟著故事加上去的：先接近黑白，再逐場加色。[2]
+
+壁紙等價規則：
+
+1. 關掉彩虹霓虹巷；廣告光改成抽象粉藍 LED 色塊
+2. 一場一個色域，不要混成通用 cyberpunk
+3. 城市幾乎沒有太陽；唯一「陽光」留給華勒斯室內
+4. 建築是對抗元素的粗野主義，不是華麗未來
+
+## 分區色世界
+
+每區只翻譯空場景。避免人物、臉、商標、可讀招牌、可辨識片場複製。
+
+### 蛋白農場（開場，最冷）
+
+Deakins：Villeneuve 要開場更冷；開場空拍在冰島陰天拍 plate。[7] 參考南西班牙農業溫室地景，以及北京霾。[7] 製作拒絕直射陽光。[3]
+
+- **色：** 冷灰、霾白、褐土；天地接近同色
+- **光／天氣：** 陰、平光、無太陽
+- **空場景：** 無人農舍或枯樹、低雲、遠處溫室棚或同心圓鏡場地平線
+- **避免：** 綠田、金陽光、霓虹、金字塔
+
+Villeneuve 用黃線貫穿真相／童年／創造：黃門、黃花，到 Vegas 才轉紅但邊緣仍黃；重點在光，不是服裝道具。[6] 農場可留極小面積鉻黃（門框或枯花），不要每張都黃。
+
+### 洛杉磯街／日夜城
+
+早期參考是北京建築與霾中城市，以及倫敦南岸、Barbican、Trellick Tower 的粗野主義。[1]
+
+城市比 1982 更疏；墨西哥城多霧雨日的空拍提供真實光。[3][7]
+
+舞台用厚霧，有時能見度約 20 英尺，再疊雨或雪。[7]
+
+- **色：** 灰藍霾、銀白濕氣；夜間局部粉藍 LED，不是多色燈管
+- **空場景：** 無人混凝土峽谷、頂重量體、短能見度
+- **避免：** Ridleyville 巷弄複刻、晴朗遠景、陽光、品牌全息、巨型人像廣告
+
+巨大 Joi 廣告那場，現場用 40×30 英尺 LED 播事先拍的粉藍素材，廣告光就是主光。[1] 壁紙只保留「粉藍 LED 牆照亮雨霧」的光法，不要演員臉。
+
+### K 的公寓
+
+Villeneuve 要嚴厲預製、塑膠觸感，反映 K 是 android；參考來自日本與香港，廚房模組略呼應 1982，其餘刻意不引用前作。[1]
+
+實景外觀勘景包含布達佩斯 Szalay 街角樓。[9]
+
+佈景走「拿掉表面裝飾、留下少數啞物體」。[10]
+
+- **色：** 冷白塑膠、刺眼條狀 LED、窗外冷銀雨
+- **空場景：** 窄、模組化、無人小宅；一扇看雨的窗
+- **避免：** Ennis House 石雕複刻、1982 磚牆照片牆、Joi 產品外觀
+
+### 警局／機構混凝土
+
+形式語言從 spinner 的稜角延伸到警局與華勒斯塔。[2][5] 沒有找到與 Vegas／Wallace 同級的專用濾鏡清單。[unverified]
+
+- **色：** 機構灰、銀白冬光、條狀冷光
+- **空場景：** 無人大廳或高走廊
+- **避免：** 美式 precinct 喜劇日光燈、1982 ceiling-fan noir
+
+### 華勒斯總部（全片唯一陽光）
+
+目標是除了華勒斯大樓，沒有陽光；外殘暴、內人造暖。[5]
+
+約 300 層、三塔；室內是京都古城／城郭的水安防哲學：水包圍平台，聲音與掌控。[5]
+
+IndieWire 寫成京都古寺；ASC 訪問寫成日本城堡的安防。[2]
+
+Deakins 要室內與室外對位：外是灰藍霾雨，內是會動的陽光。[7]
+
+辦公室是混凝土盒子裡被水包圍的平台；10K Fresnel 打水面做焦散，角色上方是旋轉的燈圈。[1]
+
+他自己區分：華勒斯要「金、乾淨」；Vegas 是鏡頭上的 deep amber。[8]
+
+Villeneuve 為了讓光源可被看見，才在空氣裡加未知科技的光軌。[6]
+
+- **色：** 外灰藍；內 golden / clean amber、暖木、焦散
+- **空場景：** 無人水殿、慢移光斑、靜水、無窗
+- **避免：** Vegas 紅濾鏡、夜店激光、霓虹
+
+### 聖地牙哥垃圾場／孤兒院工業
+
+製作日誌：Inota 發電廠＝孤兒院鍋爐房；Kelenföld 鍋爐房＝Bibi’s Bar，不要混用。[9] Filmmaker 也提到舊俄國電廠與工廠地下室實景。[4]
+
+- **色：** 鏽橙褐、污泥灰、過曝冷白天光
+- **空場景：** 無人廢料地景或無人鍋爐房（高窗、鏽管、積水）
+- **避免：** 童工敘事、把 Kelenföld 當孤兒院、把這區打成 Vegas 橙濾鏡
+
+### 拉斯維加斯廢墟
+
+Villeneuve 要紅沙漠，字面取自 Antonioni《紅色沙漠》。[5]
+
+色在鏡頭內完成：Tiffen 定制濾鏡為 Lee **790 Moroccan Pink + 105 Orange**；250 顆 space light 不清色；側邊 20 顆綠膠 Maxi-Brute 做出黃高光。[1]
+
+Filmmaker 訪問也確認 Vegas 色是現場濾鏡與凝膠，不是後製。[4]
+
+室內最大實景是布達佩斯舊證交所，窗膠用 Moroccan Pink + Orange，天窗用較輕的 Golden Amber。[1]
+
+沙烏地 haboob 與雪梨紅塵暴是大氣參考。[7]
+
+雕像庭園、故障秀、有毒地景裡的生命（蜂）是設計重點；一切要 glitchy。[5]
+
+Vegas 外景與後來的雪外景共用同一棚、同一 250 顆 space light、灰色天幕。[1]
+
+- **色：** dusty ochre / red；黃邊天空；室內較輕的 Golden Amber
+- **空場景：** 無人雕像庭園、橙紅塵；或無人賭場中庭、琥珀天窗
+- **避免：** 當代 Vegas 天際線、Elvis／Monroe 肖像、品牌霓虹、把華勒斯金光誤用到這區
+
+### 海堤
+
+Gassner：海堤是城市對抗洪水、求生的基礎設施。[5]
+
+Deakins 要大面積死黑，只靠載具燈；浪打來才被照到，不要照亮遠景深度。[7]
+
+實作是匈牙利後場約 150×150 英尺水箱，不是月光滿海。[1]
+
+- **色：** 近黑、車燈暖白、尾燈橙、撞擊後緊急亮白
+- **空場景：** 無人防波堤被一兩盞燈切開
+- **避免：** 清晰城市天際線、霓虹海面反射
+
+### 城市作業系統（15–20，軟體界面）
+
+使用者已接受光學／實體玻璃上的資訊圖層，但明確否決檔案室、膠片櫃、投影機、卡片庫。這六小時要看起來像**正在操作一套城市作業系統**：視窗、圖層、儀表、數位孿生，而不是在翻檔案。
+
+界面語言對齊 Territory Studio 為 2049 做的螢幕設計：Villeneuve 要實體、光學、可被現場燈光打到的系統，不是鋼鐵人式 HUD overlay。[11] 街面科技可以髒、可以 glitch；華勒斯一端是純淨幾何的黑白數位。[11] 本段走後者：空間計算桌面，視窗是軟體，玻璃是硬體。
+
+- **有：** 半透明應用視窗、標題列、圓形／網格城市數位孿生、曲線圖、拓樸、狀態色點、不可讀字形
+- **光／色：** 青資料、琥珀警示、深碳／混凝土底；界面光是主光
+- **城市：** 窗外或玻璃後方的真霾城，與 OS 裡的模型對齊
+- **沒有：** 人、絲襪、檔案櫃、微縮膠片盤、底片機、卡片抽屜、彩虹霓虹、可讀商標
+
+光學玻璃試作已導向視窗化軟體 OS；試作檔已刪，定稿為 `15.jpg`–`20.jpg`。
+
+建議六張各自獨立，下午到黃昏同一套 OS 的不同畫面：
+
+| 小時 | 軟體畫面 | 調性 |
+|---|---|---|
+| `15` | OS 主畫面：多重視窗管理器，城市孿生在中央 | 午後、界面剛亮 |
+| `16` | 交通／電網圖層疊在地圖上 | 儀表密度升高 |
+| `17` | 鑽入一個行政區模組 | 更近、更幾何 |
+| `18` | 黃昏，界面光開始壓過天際線 | 青琥珀對位城市燈 |
+| `19` | 全幅體積城市孿生 | 系統幾乎填滿景深 |
+| `20` | 空操作甲板，擋風玻璃就是桌面 | 夜前，城市＝桌布 |
+
+### 終場雪
+
+Villeneuve：從凍結的雪定義更殘酷的未來 LA，銀白而不是黑。[6] Ana 的實驗室是「沒有光源的大蛋」，靈感來自倫敦自然史博物館 Darwin Centre Cocoon。[1] 雪外景與 Vegas 共用 space light 棚。[1]
+
+- **色：** silver-white、骨白雪、極淡冷灰
+- **空場景：** 無人雪階、繭形或卵形白建築、無廣告
+- **避免：** 聖誕暖色、血、人物剪影
+
+## 真實地景錨點（生成用，不是盜片場）
+
+與 `winter-overlook` 用 Timberline Lodge／Ahwahnee 一樣：用公開建築與地景當物質骨架，電影語彙只做文字描述。
+
+| 錨點 | 對應世界 | 依據 |
+|---|---|---|
+| 倫敦 South Bank、Barbican、Trellick Tower | LA 粗野主義 | Deakins／Villeneuve 早期勘景 [1] |
+| 北京霾中的城市輪廓 | LA 日景大氣 | 「Beijing in smog」是明文參考 [3][7] |
+| 墨西哥城粗野主義空拍 | 飛行中的 LA | 真霧真雨的光 [3][7] |
+| 冰島陰天 plate | 開場／加州荒地 | 開場要更冷 [7] |
+| 南西班牙農業溫室 | 農場地平線 | Deakins 口述參考 [7] |
+| 布達佩斯 Szalay × Honvéd 直線公寓塊 | K 宅外觀、雪街 | 製作日誌勘景 [9] |
+| Inota 發電廠 | 孤兒院／工業內臟 | 製作日誌：orphanage boiler room [9] |
+| Kelenföld 鍋爐房 | 市區地下酒吧質感（非孤兒院） | 製作日誌：Bibi’s Bar [9] |
+| 布達佩斯證交所宮 | Vegas 室內體量 | 最大實景，三層以上 [1][4] |
+| 京都城郭／古寺的水安防哲學 | 華勒斯水殿 | 靈感，不要抄具體寺社外形 [2][5] |
+| 倫敦 Darwin Centre Cocoon | 記憶實驗室／終場建築 | 「沒有光源的蛋」 [1] |
+| 內華達 Valley of Fire | Vegas 外圍紅岩大氣 | 空拍單位在雨霾中拍紅石 [3] |
+| 沙烏地 haboob／雪梨紅塵照片 | Vegas 能見度 | 色參考，不要地標外形 [7] |
+
+## 建議小時敘事
+
+這是壁紙時段，不是電影時序。原則：相鄰小時同色域；一天走完「粉藍夜 → 海堤黑 → 冷灰農場 → 機構銀 → 霾城 → 人造金 → 工業鏽 → 赭紅 Vegas → 預製雨宅 → 銀雪」。
+
+建議改為 12 張實體 JPG + 12 個相對 symlink（對齊 `event-horizon`），目標 `3840x2160` sRGB。
+
+| 小時 | 實體檔 | 世界 | 調性 |
+|---|---|---|---|
+| `0–1` | `0.jpg` | LA 雨夜 + 抽象粉藍 LED | 近黑、霧、廣告光是唯一主光 |
+| `2–3` | `2.jpg` | 海堤 | 光池、浪、死黑 |
+| `4–6` | `4.jpg` | 蛋白農場 | 最冷、褐灰、陰天、溫室／鏡場地平線 |
+| `7–8` | `7.jpg` | 警局／市民粗野主義 | 銀白、混凝土、無人廳堂 |
+| `9–10` | `9.jpg` | LA 日霾 | 無太陽、短能見度；顏色只在遠方指示燈輕輕跳 |
+| `11–13` | `12.jpg` | 華勒斯水殿 | 全片唯一陽光：金、焦散、慢移光 |
+| `14` | `14.jpg` | Vegas 雕像庭（已產，含人物） | 赭紅塵；15 起切斷人物線 |
+| `15` | `15.jpg` | 城市 OS 主畫面 | 多重視窗、中央城市孿生 |
+| `16` | `16.jpg` | 交通／電網圖層 | 儀表密度升高 |
+| `17` | `17.jpg` | 行政區模組 | 更近、更幾何 |
+| `18` | `18.jpg` | 黃昏 OS | 界面光壓過天際線 |
+| `19` | `19.jpg` | 全幅體積孿生 | 系統填滿景深 |
+| `20` | `20.jpg` | 空操作甲板 | 擋風玻璃＝桌面 |
+| `22` | `22.jpg` | 銀雪外觀 | 繭形建築、雪階 |
+| `23` | `23.jpg` | 銀雪收束 | 更近、更靜、無廣告 |
+
+Symlink：
+
+- `1.jpg` -> `0.jpg`
+- `3.jpg` -> `2.jpg`
+- `5.jpg`, `6.jpg` -> `4.jpg`
+- `8.jpg` -> `7.jpg`
+- `10.jpg` -> `9.jpg`
+- `11.jpg`, `13.jpg` -> `12.jpg`
+- `21.jpg` -> 暫仍連到舊雨夜，待 21–23 重產後再定
+
+若要更細（對齊 `winter-overlook` 的 16 張），可把華勒斯拆成外牆灰藍與室內金光兩張，Vegas 再加雕像庭園近景。
+
+## 產圖限制（後續實作時）
+
+- 一次一張；電影劇照不當 image input
+- 無人、無演員臉、無可讀商標與片名（`9–14` 為已完成的例外，不帶回 `15–20`）
+- `15–20` 禁止檔案室道具：檔案櫃、膠片盤、底片機、卡片庫
+- 東亞文字改成不可讀的抽象字形，避免 1982 式招牌牆
+- 不要金字塔／Tyrell 剪影
+- 黃只當點綴光，不要每張都黃
+- 不修改 `dwall.sh`、`install.sh`、`test.sh`
+- 完成後更新主 `README.md` 與 `images/neon-dystopia/README.md`
+
+## 缺口
+
+- Warner Bros. 官方製作筆記全文：未找到可引用的獨立 PDF
+- LAPD、記憶圖書館的專用濾鏡／凝膠清單：沒有與 Vegas／Wallace 同級的一手表
+- 蛋白農場室內色溫：Deakins.com 相關專頁鎖會員，未引用
+- Gemasolar 太陽能場常被次級地點文點名；本次未抓到一手頁面，農場地平線先以 Deakins 的「南西班牙農業溫室」為準 [7]
+- 「Sepulveda Wall」名稱未在 Deakins／Gassner 訪談複述，海堤只按主創的基礎設施／光池描述
+- Vanity Fair 製作設計文本次抓取不完整，京都地板吱呀的安防故事未採信
+
+## Sources
+
+[1] https://theasc.com/article/uncanny-valley-blade-runner-2049 — Uncanny Valley: Blade Runner 2049 (American Cinematographer, Deakins)
+[2] https://theasc.com/article/blade-runner-2049-designing-the-future — Blade Runner 2049: Designing the Future (American Cinematographer, Gassner)
+[3] https://www.icgmagazine.com/web/humanity-2-0 — Humanity 2.0 (ICG Magazine)
+[4] https://filmmakermagazine.com/103272-the-color-of-the-future — The Color of the Future: Roger Deakins on Blade Runner 2049
+[5] https://www.indiewire.com/awards/industry/blade-runner-2049-dystopia-production-design-denis-villeneuve-1201891427 — Designing a Brutal, Beautiful Dystopia (IndieWire, Gassner)
+[6] https://www.indiewire.com/awards/industry/blade-runner-2049-roger-deakins-denis-villeneuve-1201900768 — Denis Villeneuve’s Most Difficult Challenges (IndieWire)
+[7] https://deadline.com/2018/02/blade-runner-2049-roger-deakins-oscars-cinematography-interview-1202280774 — Roger Deakins On Making Light Feel Alive (Deadline)
+[8] https://www.rogerdeakins.com/forums/topic/blade-runner-2049 — Wallace gold vs Vegas amber (Roger Deakins forum)
+[9] https://collider.com/blade-runner-2049-production-journal-cynthia-yorkin — Cynthia Yorkin production journal excerpts (Collider)
+[10] https://www.setdecorators.org/?art=SetDecor_Film_BLADE_RUNNER&name=BLADE-RUNNER-2049 — BLADE RUNNER 2049 set decoration (SDSA)
+[11] https://territorystudio.com/project/blade-runner-2049/ — Territory Studio, Blade Runner 2049 screen graphics
