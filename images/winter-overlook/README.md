@@ -30,7 +30,7 @@ views stay empty. `task-shining.md` records the earlier empty-scene plan.
 | `4-6` | `4.jpg` | Empty corridor before dawn |
 | `7` | `7.jpg` | Hotel exterior at winter dawn |
 | `8` | `8.jpg` | Grand lobby in early morning light |
-| `9` | `9.jpg` | Sunlit guest-floor corridor |
+| `9` | `9.jpg` | Sunlit guest-floor corridor, figure at the near door |
 | `10` | `10.jpg` | Empty green-tiled bathroom |
 | `11` | `11.jpg` | Mountain-view lounge |
 | `12-13` | `12.jpg` | Empty gold-toned ballroom at noon |
@@ -194,6 +194,30 @@ Still [ceiling so it does not overshoot].
 | `ghost` / `transparent woman` | 人是實的。透的是襪。另寫這小時的那一種鬼證據 |
 | 只有 `still covering` | 那是天花板；還要寫露出下限 |
 
+### `9` 出圖句子（2026-10-15）
+
+姿勢不是被擋的原因。背靠左側門、側過身、看走廊盡頭，已經出過圖。朝鏡頭坐著，也出過圖。同一輪裡被擋的是露出說法，側坐和朝鏡頭都擋過。
+
+| 結果 | 提示裡實際在寫的 | 檔 |
+|---|---|---|
+| 出圖 | 細肩帶上衣還在。裙擺在伸出那條腿的大腿中段，膝和大腿下半在裙外，髖仍被布蓋住。腿上是一層日光暖調的膜。側坐，不看鏡頭 | `_trials/9-sunfloor-2.jpg` |
+| 出圖 | 衣服名稱，不寫界線：`dry-rose strapless top` 加上 `high-waisted skin-tone tights with a warm sunlight tint`。朝鏡頭坐門前。雙膝沒有分開，腰頭偏實心 | `_trials/9-sunfloor-4.jpg` |
+| 出圖 | 同一組衣服名稱，姿勢改回側坐：背靠門，看走廊盡頭，一腿伸出、一腿彎著，空鞋在門邊。參考是空的 `9.jpg`，不是已有人的圖。胸片和腰頭被畫成一件連身，髖仍被乾玫瑰布蓋住 | `_trials/9-sunfloor-5.jpg` |
+| 出圖 | 背面要分開兩件：`strapless top ends at the lower edge of her shoulder blades`，`high-waisted skin-tone tights start at the waist`，下背和肩膀同一膚色。參考仍是空的 `9.jpg`。乾玫瑰停在肩胛下緣，髖和腿是膚色高腰膜，腰頭偏實心 | `_trials/9-sunfloor-6.jpg` |
+| 出圖，膜沒變薄 | 在上一句加上 `very thin dry film`、`match the skin tone of her lower back`、`only a faint nylon highlight`、膝仍可讀。姿勢留住，髖和腿仍是實心淺色膜 | `_trials/9-sunfloor-7.jpg` |
+| 出圖 | 只改腿：近鏡頭那條膝抬起、腳在髖旁地毯上；另一條沿地毯，膝有一點彎，不要鎖直。兩膝不要併死。衣服句沿用 `9-sunfloor-6`。參考空的 `9.jpg` | `_trials/9-sunfloor-9.jpg` |
+| 出圖 | 只改空鞋。底是 `9-sunfloor-9.jpg`。`flat loafers` 改成 `dark leather evening shoes with a low curved heel`，跟明顯矮於細高跟，仍空在門邊。畫出來是矮粗跟，不是彎細跟 | `_trials/9-sunfloor-10.jpg` |
+| 出圖，腿被拉直 | 只改鏡頭。底是 `9-sunfloor-10.jpg`。人變大，腿更長，盡頭的窗還在。兩膝從彎坐退回幾乎伸直、疊在一起 | `_trials/9-sunfloor-11.jpg` |
+| 出圖 | 再拉近，底仍是 `9-sunfloor-10.jpg`，並寫明近膝抬起、另一膝保持微彎、兩腳貼地毯、不要鎖直。彎坐留住，矮粗跟留住，窗還在 | `_trials/9-sunfloor-12.jpg` |
+| 出圖 | 只錯開兩腳。底是 `9-sunfloor-12.jpg`。抬起那條的腳留在髖旁，另一隻沿地毯再出去，兩腳明顯分開，兩膝仍一高一低 | `_trials/9-sunfloor-13.jpg` |
+| 被擋，沒有檔 | 再寫成大腿、膝、小腿和下背同一膚色，表面只有一條淡高光 | — |
+| 被擋，沒有檔 | 拿 `9-sunfloor-2.jpg` 當底，只把衣服改成上一列的名稱。人還在圖裡時，改衣服這句會被擋 | — |
+| 被擋，沒有檔 | `remove the skirt`、`bare`、`only nylon`、`from the navel`、`covers the hips`、`buttocks`、`whole thigh outside the skirt` | — |
+
+聖殿 `13`、`18` 能成，是因為句子落在「胸前一塊＋高腰膚色膜」，不是「把裙子拿掉」。`13` 要讀到膜，還得雙膝分開、人朝鏡頭；那是姿勢，不是側面生不出圖。`9` 往這套衣服走時，用上一列的衣服名稱。不要把聖殿的 `13.jpg` 拿來當尺度參考。
+
+收在 `_trials/9-sunfloor-13.jpg`。正式 `9.jpg` 是它的 `3840×2160` 放大，空景備份 `_trials/9-before-character.jpg`。背靠左側門，看走廊盡頭。乾玫瑰胸片停在肩胛下緣，下背是皮膚。髖和腿是膚色高腰膜，腰頭偏實心。一膝抬起、腳在髖旁，另一腳沿地毯更遠。空著的暗皮矮粗跟在門邊。膜的厚度沒有再薄下去。
+
 ## 小時地圖
 
 現況都是空景底板。有人的小時從零重做近景，不要拿遠景空景當構圖鎖。
@@ -206,7 +230,7 @@ Still [ceiling so it does not overshoot].
 | `6` | 留空，仍連 `4` | — | — | — | — | symlink→`4` |
 | `7` | 冬晨外觀。留空 | — | — | — | — | `7.jpg` |
 | `8` | 大廳靠窗。慵懶斜倚扶手椅、雙腿自大腿處自然交疊延伸向右下前景；看窗外的雪 | 墨黑細肩帶深 V 胸下三角鑽空短上衣＋高腰極短窄裙退到大腿根部 | 窗外雪光的冷藍微染全透，皮膚與膝蓋透出 | **穿鞋**。暗皮尖頭細跟晚鞋。看見鞋口襪緣 | 大門玻璃裡是雪和空廳，沒有她 | **正式** `8.jpg`＝`_trials/8-dirA3-cool-3840.jpg`（由空椅舞台 `8-empty-chair.jpg` 重出 `8-dirA-3.jpg` 後鎖定無倒影玻璃與冷藍透膜放大）。獨立 3840×2160。兩腿同一層膜 |
-| `9` | 日光照進的客房走廊。留空 | — | — | — | — | `9.jpg` |
+| `9` | 日光照進的客房走廊。背靠左側門，看盡頭的窗，不看鏡頭。一膝抬起、腳在髖旁；另一腳沿地毯更遠 | 乾玫瑰無肩帶胸片，下緣在肩胛下緣。沒有裙子 | 膚色高腰膜，腰頭偏實心，帶日光暖調 | **脫鞋**，暗皮矮粗跟空在門邊。跟矮於細高跟 | 門板上可留影子 | **正式** `9.jpg`＝`_trials/9-sunfloor-13-3840.jpg`。來源 `1280×720`。空景 `_trials/9-before-character.jpg` |
 | `10` | 綠磚浴室。站在門框裡朝內看，浴缸保持空。腿在門框前景 | 沒有上衣、沒有下襬；胸、腰、髖皮膚都入鏡 | 綠磚的薄綠，從腰接到趾，皮膚和膝仍透出 | **脫鞋，房裡沒有鞋**。磁磚上看得見趾尖側面；膜蓋住趾腹；腳掌貼地 | 洗手台上方的鏡子裡是窗、浴缸、洗手台，沒有她 | 空景 `10.jpg`。試作仍是黑衣，未接受 |
 | `11` | 山景休息室。留空 | — | — | — | — | `11.jpg` |
 | `12` | 正午金廳全景。留空 | — | — | — | 廳是為沒來的宴會佈置的 | `12.jpg` |
